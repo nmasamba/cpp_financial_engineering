@@ -4,6 +4,9 @@
 #include <iostream>
 using namespace std;
 
+#include "inequalities.hpp"
+#include "inequalities.cpp"
+
 int main() {
 
 	double n1, n2;
