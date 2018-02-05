@@ -16,12 +16,12 @@ private:
 public:
 
 	// Public member data for convenience only
-	double r;
-	double sig;
-	double K;
-	double T;
-	double U;
-	double b;
+	double r; // risk free interest rate
+	double sig; // volatility (sigma - standard deviation)
+	double K; // strike price
+	double T; // expiry date
+	double U; // current underlying price
+	double b; // cost of carry
 
 	string optType; // Option type (put or call?)
 
