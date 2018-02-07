@@ -1,5 +1,5 @@
 
-#include EuropeanOption.hpp
+#include "EuropeanOption.hpp"
 #include <math.h>
 
 // Kernel functions
@@ -114,6 +114,33 @@ EuropeanOption& EuropeanOption::operator = (const EuropeanOption& opt2)
 
 
 // Functions to calculate option price and sensitivities
+double EuropeanOption::Price() const
+{
+	if (optType == "C")
+	{
+		return CallPrice();
+	}
+	else
+		return PutPrice();
+}
+
+double EuropeanOption::Delta() const
+{
+	if (optType == "C")
+		return CallDelta();
+	else
+		return PutDelta();
+}
+
+// Modifier functions
+void EuropeanOption::toggle()
+{
+	// Change option type (C/P, P/C)
+	if (optType == "C")
+		optType = "P";
+	else
+		optType = "C";
+}
 
 
 
