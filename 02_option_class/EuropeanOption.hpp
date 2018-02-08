@@ -1,3 +1,10 @@
+/***********************************************************************
+
+Class definition for EuropeanOption
+(c) Datasim Education Technology BV 2003
+Amended and corrected by Nyasha Masamba
+
+***********************************************************************/
 
 
 class EuropeanOption {

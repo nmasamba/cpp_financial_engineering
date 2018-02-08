@@ -1,3 +1,11 @@
+/***********************************************************************
+
+Code file for EuropeanOption member function bodies
+(c) Datasim Education Technology BV 2003
+Amended and corrected by Nyasha Masamba
+
+***********************************************************************/
+
 
 #include "EuropeanOption.hpp"
 #include <math.h>
