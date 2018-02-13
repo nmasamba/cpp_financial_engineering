@@ -52,7 +52,7 @@ double EuropeanOption::PutDelta() const
 	return exp((b-r)*T) * (N(d1) - 1.0);	
 }
 
-double EuropeanOption::init()
+void EuropeanOption::init()
 {
 	// Initialise default values
 	r = 0.08;

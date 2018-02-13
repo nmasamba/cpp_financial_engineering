@@ -6,6 +6,8 @@ Amended and corrected by Nyasha Masamba
 
 ***********************************************************************/
 
+#ifndef EuropeanOption_HPP
+#define EuropeanOption_HPP
 
 class EuropeanOption {
 
@@ -53,3 +55,6 @@ public:
 
 
 };
+
+
+#endif
